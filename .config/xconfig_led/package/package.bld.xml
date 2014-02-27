@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="xconfig_led" version="" producerId="undefined">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/cfg/led_pe430.c"/>
+    </sources>
+    <configscripts>
+        <srcFile name="C:/Users/Joseph/workspace_v5_5/GraceTest/led.cfg"/>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/cfg/led_pe430.mak" src="package.bld"/>
+        <srcFile name="package/cfg/led_pe430.oe430.dep" src="package/cfg/led_pe430.c"/>
+        <srcFile name="package/cfg/led_pe430.dep" src="package/cfg/led_pe430.cfg"/>
+        <srcFile name="package/cfg/led.xe430.mak" src="package.bld"/>
+        <srcFile name="package/rel/xconfig_led.tar.dep" src="package/rel/xconfig_led.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="ti.targets.msp430.elf.MSP430"
+            version="ti.targets.msp430.elf.MSP430{1,0,4.2,1"
+            rawVersion="4.2.1"
+            platform="ti.platforms.exp430F5438"
+            isa="430"
+            suffix="e430"
+            rootDir="C:/ti/ccsv5/tools/compiler/msp430_4.2.1"
+            os="undefined"
+            rts="ti.targets.msp430.rts430">
+            <model endian="little"
+                codeModel="small"
+                dataModel="small"/>
+        </target>
+    </targets>
+    <libraries>
+    </libraries>
+    <configurations>
+    <configuration name="led"
+        pname="led.pe430"
+        target="ti.targets.msp430.elf.MSP430"
+        platform="ti.platforms.msp430:MSP430G2231"
+        profile="release"
+        isPartial="false"
+        xCfgScript="package/cfg/led_pe430.cfg"
+        xCfgPrefix="package/cfg/led_pe430"
+        cfgScript="C:/Users/Joseph/workspace_v5_5/GraceTest/led.cfg"
+        cfgArgs="null"
+        />
+    </configurations>
+    <executables>
+    <executable name="led"
+        pname="led.xe430"
+        target="ti.targets.msp430.elf.MSP430"
+        platform="ti.platforms.msp430:MSP430G2231"
+        profile="release"
+        xCfgScript="package/cfg/led_pe430.cfg"
+        xCfgPrefix="package/cfg/led_pe430"
+        cfgScript="C:/Users/Joseph/workspace_v5_5/GraceTest/led.cfg"
+        cfgArgs="null"
+        />
+    </executables>
+    <tests>
+    <test exeName="led.xe430"
+        args=""
+        groupName="led.xe430"
+        refOutput="undefined"
+        refExitCode="0"
+        execArgs=""
+        />
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="xconfig_led"
+        pname="xconfig_led.tar"
+        label="default"
+    >
+        <file name="package/package.bld.xml"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

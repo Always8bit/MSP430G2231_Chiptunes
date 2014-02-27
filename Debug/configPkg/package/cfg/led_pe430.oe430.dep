@@ -1,0 +1,9 @@
+package/cfg/led_pe430.oe430: package/cfg/led_pe430.c C:/ti/xdctools_3_25_03_72/packages/xdc/std.h C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include/stdarg.h C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include/stddef.h C:/ti/grace_2_20_01_12/packages/ti/targets/msp430/elf/std.h C:/ti/xdctools_3_25_03_72/packages/ti/targets/select.h C:/ti/xdctools_3_25_03_72/packages/ti/targets/std.h C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include/stdint.h 
+package/cfg/led_pe430.c:
+C:/ti/xdctools_3_25_03_72/packages/xdc/std.h:
+C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include/stdarg.h:
+C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include/stddef.h:
+C:/ti/grace_2_20_01_12/packages/ti/targets/msp430/elf/std.h:
+C:/ti/xdctools_3_25_03_72/packages/ti/targets/select.h:
+C:/ti/xdctools_3_25_03_72/packages/ti/targets/std.h:
+C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include/stdint.h:
