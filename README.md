@@ -6,4 +6,4 @@ A very crude and silly thing I made in a day for playing tunes on the MSP430G223
 
 That's about it:
 
-www.youtube.com/watch?v=v7yWCTw26tc
+https://vimeo.com/90978965
